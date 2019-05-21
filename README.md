@@ -2,9 +2,14 @@
 A text-to-speech dataset based on OCW lectures. The format is identical to the LJSpeech Dataset, making it easy to train deep temporal models that predict mel spectrograms directly from character encodings (i.e. TacoTron / TacoTron2). Pre-processing code is also provided to automatically segment data based on subtitle information, and then perform fine-alignment using python aeneas package
 
 
-## Latest Version: 0.1: 
+## Latest Version: 0.2: 
 
 Download at the following link:
+https://tinyurl.com/MIT-TTS-0-2
+
+## Earlier Versions:
+
+Download 0.1 at the following link:
 https://tinyurl.com/MIT-TTS-0-1
 
 

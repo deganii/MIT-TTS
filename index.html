@@ -187,7 +187,7 @@ recorded by the <a href="https://ocw.mit.edu/">MIT OpenCourseware</a> project an
           <a href="https://tinyurl.com/MIT-TTS-0-2" download>Download Dataset (180 MB)</a>
         </p>
 
-        <h2>Sample Data</h1>
+        <h2>Sample Data</h2>
         <div class="sample">
           <audio src="./samples/0472-MIT5_07SCF13_JoAnne_Redox.wav" controls preload="metadata"></audio>
           <p>If we go back and we look at our oxidized form of the flavin,</p>
@@ -195,10 +195,21 @@ recorded by the <a href="https://ocw.mit.edu/">MIT OpenCourseware</a> project an
         <div class="sample">
           <audio src="./samples/0468-MIT5_07SCF13_JoAnne_Redox.wav" controls preload="metadata"></audio>
           <p>you look at basic metabolism is often FAD is reduced by NADH.</p>
+        </div>     
+
+        <h2>Synthesized Data</h2>
+        <p>The following artificially rendered speech demonstrates the outcome of training the <a href="https://github.com/NVIDIA/tacotron2">NVIDIA TacoTron2</a> reference implementation on the 0.2 version of this dataset.
+          </p>
+        <div class="sample">
+          <audio src="./samples/enzyme-fairy.wav" controls preload="metadata"></audio>
+          <p>The very first enzymes were synthesized by the enzyme fairy.</p>
         </div>
+        <div class="sample">
+          <audio src="./samples/chemistry-boring.wav" controls preload="metadata"></audio>
+          <p>Chemistry is boring, I  mean really boring.</p>
+        </div>        
 
-
-        <h2>File Format</h1>
+        <h2>File Format</h2>
         <p> The dataset is constructed to be identical to the <a href="https://keithito.com/LJ-Speech-Dataset/">LJSpeech dataset</a> in order to be used as a drop-in replacement. 
         This web page also uses LJ Speech as a template.
 Metadata is provided in <b>metadata.csv</b>. This file consists of one record
